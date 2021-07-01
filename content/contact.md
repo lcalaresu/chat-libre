@@ -1,7 +1,3 @@
-+++
-draft = true
-
-+++
 ---
 layout: blocks
 title: Nous contacter
