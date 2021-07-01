@@ -1,12 +1,11 @@
 +++
-date = "2018-06-28T17:17:55+00:00"
-draft = true
+date = 2018-06-28T17:17:55Z
 layout = "blocks"
 title = "All Available Blocks."
 [[page_sections]]
 block = "header-1"
-template = "navigation-header"
 logo = "/uploads/2018/06/21/forestry-full.svg"
+template = "navigation-header"
 [[page_sections.navigation]]
 link_text = "Home"
 link_url = "/"
@@ -22,18 +21,22 @@ block = "header-2"
 logo = "/uploads/2018/06/21/forestry-full.svg"
 template = "navigation-header-w-button"
 [page_sections.cta]
-link_text = "Download?"
+link_text = "Faire un don"
 link_url = "#"
+open_in_new_tab = true
 [[page_sections.navigation]]
-link_text = "Home"
-link_url = "/"
+link_text = "L'association"
+link_url = "#asso"
+[[page_sections.navigation]]
+link_text = "Adopter un chat"
+link_url = "#adopter"
+[[page_sections.navigation]]
+link_text = "Actualités"
+link_url = "#actualites"
+open_in_new_tab = true
 [[page_sections.navigation]]
 link_text = "Contact"
-link_url = "#"
-[[page_sections.navigation]]
-link_text = "Hugo Docs"
-link_url = "http://gohugo.io/documentation/"
-open_in_new_tab = true
+link_url = "#contact"
 [[page_sections]]
 block = "header-3"
 logo = "/uploads/2018/06/21/forestry-full.svg"
@@ -122,10 +125,10 @@ content = "Just a footer"
 template = "simple-footer"
 [[page_sections]]
 block = "footer-2"
-image = "/uploads/2018/06/21/forestry-symbol.svg"
 col_2 = "Some content"
 col_3 = "Some more content"
 col_4 = "Now I'm content"
+image = "/uploads/2018/06/21/forestry-symbol.svg"
 template = "4-column-footer"
 
 +++
