@@ -51,9 +51,8 @@ sections:
   path: content/contact.md
   label: Contact
 - type: document
-  path: all-available-blocks.md
+  path: content/all-available-blocks.md
   label: All blocks
-  match: "**/*"
 - type: document
   path: _config.yml
   label: Config
